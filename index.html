@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="中村のプロフィールサイトのトップページです。">
+  <title>TOP | Nakamura Profile</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="site-logo" href="index.html">
+        NAKAMURA <span>PROFILE</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="メニューを開閉" aria-expanded="false"
+        aria-controls="global-navigation">
+        <span class="menu-button__line"></span>
+        <span class="menu-button__line"></span>
+        <span class="menu-button__line"></span>
+      </button>
+
+      <nav class="global-nav" id="global-navigation" aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html" aria-current="page">TOP</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="favorite.html">Favorite</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="hero">
+      <div class="hero-inner container">
+        <div class="hero__content fade-in">
+          <span class="hero__label">WELCOME TO MY PROFILE</span>
+          <h1 class="hero__title">
+            ここに<em>キャッチコピー</em>を入力
+          </h1>
+          <p class="hero__text">ここに短い自己紹介文を入力</p>
+
+          <div class="button-row">
+            <a class="button" href="about.html">プロフィールを見る</a>
+            <a class="button button--outline" href="contact.html">お問い合わせ</a>
+          </div>
+        </div>
+
+        <div class="slider fade-in" aria-label="プロフィール画像スライダー">
+          <div class="slider__track">
+            <figure class="slider__slide">
+              <img src="img/hero-01.svg" alt="明るい窓辺と植物のイラスト">
+            </figure>
+            <figure class="slider__slide">
+              <img src="img/hero-02.svg" alt="本と飲み物の和やかなイラスト">
+            </figure>
+            <figure class="slider__slide">
+              <img src="img/hero-03.svg" alt="笑顔を表現した明るいイラスト">
+            </figure>
+          </div>
+
+          <div class="slider__controls">
+            <button class="slider__button" type="button" data-slider="previous" aria-label="前の画像">
+              ‹
+            </button>
+            <div class="slider__dots" aria-label="スライド選択"></div>
+            <button class="slider__button" type="button" data-slider="next" aria-label="次の画像">
+              ›
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading fade-in">
+          <p class="section-heading__label">Explore</p>
+          <h2 class="section-heading__title">ここにセクション見出しを入力</h2>
+          <p class="section-heading__text">ここに各ページを案内する文章を入力</p>
+        </div>
+
+        <div class="card-grid">
+          <article class="card fade-in">
+            <span class="card__label">01</span>
+            <h3 class="card__title">About</h3>
+            <p class="card__text">ここにプロフィールページの説明を入力</p>
+            <a class="card__link" href="about.html">詳しく見る →</a>
+          </article>
+
+          <article class="card fade-in">
+            <span class="card__label">02</span>
+            <h3 class="card__title">Skills</h3>
+            <p class="card__text">ここにスキルページの説明を入力</p>
+            <a class="card__link" href="skills.html">詳しく見る →</a>
+          </article>
+
+          <article class="card fade-in">
+            <span class="card__label">03</span>
+            <h3 class="card__title">Favorite</h3>
+            <p class="card__text">ここに好きなものページの説明を入力</p>
+            <a class="card__link" href="favorite.html">詳しく見る →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div>
+        <a class="site-logo" href="index.html">NAKAMURA PROFILE</a>
+        <p>ここにサイトの説明を入力</p>
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="favorite.html">Favorite</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <p class="footer-copy">&copy; 2026 Nakamura Profile.</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="ページ上部へ戻る">
+    ↑
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

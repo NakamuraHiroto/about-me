@@ -1,0 +1,20 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 600"
+  role="img"
+  aria-labelledby="title"
+>
+  <title>プロフィールサイト用のオリジナルイラスト</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff1f1" />
+      <stop offset="1" stop-color="#ffd6d6" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="40" fill="url(#background)" />
+  <circle cx="660" cy="110" r="65" fill="#ffffff" opacity="0.65" />
+  <rect x="130" y="120" width="310" height="300" rx="28" fill="#ffffff" />
+  <path d="M285 120v300M130 270h310" stroke="#f4a6a6" stroke-width="10" />
+  <path d="M530 460c-10-115 20-190 85-235 5 76-25 135-85 180" fill="#d84a4a" />
+  <rect x="485" y="410" width="110" height="70" rx="20" fill="#a9323a" />
+</svg>

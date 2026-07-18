@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="中村の自己紹介ページです。">
+  <title>About | Nakamura Profile</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">本文へ移動</a>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="site-logo" href="index.html">
+        NAKAMURA <span>PROFILE</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-label="メニューを開閉" aria-expanded="false"
+        aria-controls="global-navigation">
+        <span class="menu-button__line"></span>
+        <span class="menu-button__line"></span>
+        <span class="menu-button__line"></span>
+      </button>
+
+      <nav class="global-nav" id="global-navigation" aria-label="メインナビゲーション">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">TOP</a></li>
+          <li><a class="nav-link" href="about.html" aria-current="page">About</a></li>
+          <li><a class="nav-link" href="skills.html">Skills</a></li>
+          <li><a class="nav-link" href="favorite.html">Favorite</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="page-hero__inner container">
+        <div>
+          <p class="section-heading__label">About me</p>
+          <h1 class="page-hero__title">私について</h1>
+          <p class="page-hero__text">ここにページの紹介文を入力</p>
+        </div>
+        <img class="page-hero__image" src="img/about.svg" alt="明るい人物のイラスト">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="profile-layout container">
+        <img class="profile-image fade-in" src="img/about.svg" alt="明るい人物のイラスト">
+
+        <div class="info-list">
+          <article class="info-item fade-in">
+            <p class="info-item__label">NAME</p>
+            <h2>中村</h2>
+          </article>
+          <article class="info-item fade-in">
+            <p class="info-item__label">COURSE</p>
+            <h2>ホワイトハッカー</h2>
+          </article>
+          <article class="info-item fade-in">
+            <p class="info-item__label">MESSAGE</p>
+            <p>これからよろしくお願いします</p>
+          </article>
+          <article class="info-item fade-in">
+            <p class="info-item__label">FUTURE GOAL</p>
+            <p>漫画だけで部屋を埋めたい</p>
+          </article>
+          <article class="info-item fade-in">
+            <p class="info-item__label">STRENGTH</p>
+            <p>明るい</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div>
+        <a class="site-logo" href="index.html">NAKAMURA PROFILE</a>
+        <p>ここにサイトの説明を入力</p>
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="favorite.html">Favorite</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <p class="footer-copy">&copy; 2026 Nakamura Profile.</p>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="ページ上部へ戻る">
+    ↑
+  </button>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
